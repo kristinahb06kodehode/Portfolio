@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="" class="nav-item">OM MEG</a>
+        <a href="javascript:void(0);" class="nav-item" onClick="scrollToSection('#projects')">PROSJEKTER</a>
+        <a href="javascript:void(0);" class="nav-item" onClick="scrollToSection('#contact')">KONTAKT</a>
+
+    </nav>
+    <div class="name-and-title">
+        <h1>Kristina Blindheim Heggø</h1>
+        <h3>Front-end utvikler / Kodehode student</h3>
+    </div>
+
+    <div class="hero">
+        <p class="pitch">Jeg er en front-end utvikler med interesse<br>
+            for å skape vakre og funksjonelle nettsteder og apper.<br>
+            Interesselisten min er lang, og inkluderer alt fra<br>
+            gamle Disney og Pixar-filmer til memes og rare vitser.<br>
+            Når jeg ikke utforsker verden av webutvikling,<br>
+            driver jeg med vektløfting og boksing, spiller animal crossing<br>
+            og lager visionboards på pinterest med forskjellig estetikk .
+        </p>
+        <img src="./images/Component 4.svg" alt="Photo of Kristina with info about her">
+    </div>
+    <div></div>
+    <div class="project-container" id="projects">
+        <h2 class="project-heading">Prosjekter</h2>
+        <div class="project-content">
+            <div class="projects">
+                <img class="loading" src="./images/Loading.svg" alt="Loading with upcoming text">
+            </div>
+            <div class="projects">
+                <img class="loading" src="./images/Loading.svg" alt="Loading with upcoming text">
+            </div>
+            <div class="projects">
+                <img class="loading" src="./images/Loading.svg" alt="Loading with upcoming text">
+            </div>
+            <div class="projects">
+                <img class="loading" src="./images/Loading.svg" alt="Loading with upcoming text">
+            </div>
+            <div class="projects">
+                <img class="loading" src="./images/Loading.svg" alt="Loading with upcoming text">
+            </div>
+            <div class="projects">
+                <img class="loading" src="./images/Loading.svg" alt="Loading with upcoming text">
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-form" id="contact">
+        <h4 class="contact-form-heading">Kontakt meg</h4>
+        <form action="https://formsubmit.co/e8b70ac8b0ab7675e235fb719a8dd675" method="POST">
+            <label for="name">Navn:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Beskjed:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Send">
+        </form>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
