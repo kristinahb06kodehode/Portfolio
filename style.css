@@ -8,7 +8,7 @@
 
 body {
   background-color: rgba(77, 157, 136, 1);
-  color: whitesmoke;
+  color: #fdf4e1;
   font-family: "Dosis", sans-serif;
   font-size: 1.2rem;
   line-height: 1.45;
@@ -93,7 +93,7 @@ h3 {
 }
 
 .project-container {
-  background-color: rgb(208, 230, 224);
+  background-color: #fdf4e1;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .project-heading {
