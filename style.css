@@ -154,6 +154,7 @@ form {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 806px;
   flex-shrink: 0;
+  color: #fdf4e1;
 }
 
 label {
